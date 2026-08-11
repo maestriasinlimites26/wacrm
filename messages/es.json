@@ -1685,6 +1685,37 @@
       "reindex": "Reindexar",
       "reindexTooltip": "Volver a procesar todos los documentos (ej. tras configurar la clave de embeddings)",
       "loading": "Cargando..."
+    },
+    "quickReplies": {
+      "title": "Respuestas Rápidas",
+      "description": "Fragmentos reutilizables de texto o mensajes interactivos para insertar en el chat.",
+      "newReply": "Nueva Respuesta Rápida",
+      "editReply": "Editar Respuesta Rápida",
+      "noReplies": "Sin respuestas rápidas creadas.",
+      "createFirst": "Crea una respuesta rápida para usarla en tus conversaciones.",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "ej. Horario de atención",
+      "textTab": "Texto",
+      "interactiveTab": "Interactivo",
+      "textPlaceholder": "Escribe el texto de la respuesta a insertar...",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "deleteConfirm": "¿Eliminar esta respuesta rápida?",
+      "saving": "Guardando...",
+      "toastNameRequired": "Asigna un nombre a la respuesta rápida.",
+      "toastSaveError": "No se pudo guardar la respuesta rápida.",
+      "toastSaveSuccess": "Respuesta rápida guardada.",
+      "toastDeleteError": "No se pudo eliminar la respuesta rápida."
     }
+  },
+  "Notifications": {
+    "title": "Notificaciones",
+    "description": "Las conversaciones que te asignen otros miembros del equipo aparecerán aquí.",
+    "markAllRead": "Marcar todo como leído",
+    "noNotifications": "Sin notificaciones aún",
+    "noNotificationsDesc": "Verás una alerta aquí cuando alguien te asigne una conversación.",
+    "toastMarkReadFailed": "Error al marcar la notificación como leída",
+    "toastMarkAllReadFailed": "Error al marcar todas las notificaciones como leídas",
+    "retry": "Reintentar"
   }
 }
