@@ -11,7 +11,7 @@
  */
 
 /** App-wide fallback when no account/deal currency is available. */
-export const DEFAULT_CURRENCY = "USD";
+export const DEFAULT_CURRENCY = "PEN";
 
 export interface CurrencyOption {
   /** ISO-4217 code, e.g. "USD". Stored verbatim in the DB. */
@@ -28,6 +28,7 @@ export interface CurrencyOption {
  * list to offer more — nothing else needs to change.
  */
 export const CURRENCIES: CurrencyOption[] = [
+  { code: "PEN", label: "Sol peruano (PEN)", symbol: "S/" },
   { code: "USD", label: "Dólar estadounidense (USD)", symbol: "$" },
   { code: "EUR", label: "Euro (EUR)", symbol: "€" },
   { code: "GBP", label: "Libra esterlina (GBP)", symbol: "£" },
